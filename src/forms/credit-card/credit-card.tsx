@@ -6,7 +6,6 @@ import { CreditCardRow, CreditCardWrapper, WrapperDate, WrapperCvv, Label, Input
 import { withHookFormMask } from 'use-mask-input';
 import { parse } from 'date-fns';
 
-
 export type FormProps = {
     cardNumber: string;
     cardName: string;
